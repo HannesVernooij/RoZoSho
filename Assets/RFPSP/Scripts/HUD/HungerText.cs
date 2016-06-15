@@ -21,7 +21,7 @@ public class HungerText : MonoBehaviour {
 	void Update (){
 		//only update GUIText if value to be displayed has changed
 	    if(hungerGui != oldHungerGui){
-			GetComponent<GUIText>().text = "Hunger : "+ hungerGui.ToString();
+            GetComponent<GUIText>().text = "";
 			GetComponent<GUIText>().pixelOffset = new Vector2 (Screen.width * horizontalOffset, Screen.height * verticalOffset);
 			oldHungerGui = hungerGui;
 		}

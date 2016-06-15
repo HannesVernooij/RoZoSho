@@ -30,12 +30,11 @@ public class AmmoText : MonoBehaviour {
 	    if((ammoGui != oldAmmo) || (ammoGui2 != oldAmmo2)) {
 			GetComponent<GUIText>().pixelOffset = new Vector2 (Screen.width * horizontalOffsetAmt, Screen.height * verticalOffsetAmt);
 			
-			GetComponent<GUIText>().text = "Ammo : "+ ammoGui.ToString()+" / "+ ammoGui2.ToString();
+			GetComponent<GUIText>().text = "" /*+ ammoGui.ToString()+" / "+ ammoGui2.ToString()*/;
 			
 			GetComponent<GUIText>().material.color = textColor;
 		    oldAmmo = ammoGui;
 			oldAmmo2 = ammoGui2;
 	    }
-	
 	}
 }

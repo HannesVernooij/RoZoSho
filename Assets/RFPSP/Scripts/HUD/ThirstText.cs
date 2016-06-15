@@ -21,7 +21,8 @@ public class ThirstText : MonoBehaviour {
 	void Update (){
 		//only update GUIText if value to be displayed has changed
 	    if(thirstGui != oldThirstGui){
-			GetComponent<GUIText>().text = "Thirst : "+ thirstGui.ToString();
+            GetComponent<GUIText>().text = "";
+
 			GetComponent<GUIText>().pixelOffset = new Vector2 (Screen.width * horizontalOffset, Screen.height * verticalOffset);
 			oldThirstGui = thirstGui;
 		}
