@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPS GLU 2.2 2016 v1.0.CSharp", "FPS GLU 2.2 2016 v1.0.CSharp.csproj", "{D574D0A4-142C-03AC-5397-8789A92418C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPS GLU 2.2 2016 v1.0.CSharp.Editor", "FPS GLU 2.2 2016 v1.0.CSharp.Editor.csproj", "{FAB6E711-2D09-2A77-C39D-78736ED0D313}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D574D0A4-142C-03AC-5397-8789A92418C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D574D0A4-142C-03AC-5397-8789A92418C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D574D0A4-142C-03AC-5397-8789A92418C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D574D0A4-142C-03AC-5397-8789A92418C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB6E711-2D09-2A77-C39D-78736ED0D313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB6E711-2D09-2A77-C39D-78736ED0D313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB6E711-2D09-2A77-C39D-78736ED0D313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB6E711-2D09-2A77-C39D-78736ED0D313}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

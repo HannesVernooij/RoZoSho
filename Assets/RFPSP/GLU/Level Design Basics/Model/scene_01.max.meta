@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: 33b329e574c6e3640bf8573fd7561e5e
+timeCreated: 1456140614
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: 1meter
+    100002: 4meter
+    100004: limit
+    100006: limit006
+    100008: limit007
+    100010: limit008
+    100012: limit009
+    100014: limit010
+    100016: limit011
+    100018: limit012
+    100020: limit02
+    100022: limit03
+    100024: limit04
+    100026: limit05
+    100028: //RootNode
+    400000: 1meter
+    400002: 4meter
+    400004: limit
+    400006: limit006
+    400008: limit007
+    400010: limit008
+    400012: limit009
+    400014: limit010
+    400016: limit011
+    400018: limit012
+    400020: limit02
+    400022: limit03
+    400024: limit04
+    400026: limit05
+    400028: //RootNode
+    2300000: 1meter
+    2300002: 4meter
+    2300004: limit
+    2300006: limit006
+    2300008: limit007
+    2300010: limit008
+    2300012: limit009
+    2300014: limit010
+    2300016: limit011
+    2300018: limit012
+    2300020: limit02
+    2300022: limit03
+    2300024: limit04
+    2300026: limit05
+    3300000: 1meter
+    3300002: 4meter
+    3300004: limit
+    3300006: limit006
+    3300008: limit007
+    3300010: limit008
+    3300012: limit009
+    3300014: limit010
+    3300016: limit011
+    3300018: limit012
+    3300020: limit02
+    3300022: limit03
+    3300024: limit04
+    3300026: limit05
+    4300000: 1meter
+    4300002: 4meter
+    4300004: limit05
+    4300006: limit
+    4300008: limit02
+    4300010: limit03
+    4300012: limit04
+    4300014: limit006
+    4300016: limit007
+    4300018: limit008
+    4300020: limit009
+    4300022: limit010
+    4300024: limit011
+    4300026: limit012
+    6400000: 1meter
+    6400002: 4meter
+    6400004: limit
+    6400006: limit006
+    6400008: limit007
+    6400010: limit008
+    6400012: limit009
+    6400014: limit010
+    6400016: limit011
+    6400018: limit012
+    6400020: limit02
+    6400022: limit03
+    6400024: limit04
+    6400026: limit05
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
