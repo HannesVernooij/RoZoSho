@@ -3,13 +3,18 @@ using System.Collections;
 
 public class DoorScript : MonoBehaviour
 {
+    [SerializeField]
+    private AudioSource _source;
+
     public void OpenDoor()
     {
-        GetComponent<Animator>().SetBool("IsOpen", true);
+        GetComponent<Animator>().SetBool("open", true);
+        _source.Play();
     }
 
     public void CloseDoor()
     {
-        GetComponent<Animator>().SetBool("IsOpen", false);
+        GetComponent<Animator>().SetBool("open", false);
+        _source.Play();
     }
 }

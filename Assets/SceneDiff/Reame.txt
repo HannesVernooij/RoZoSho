@@ -1,0 +1,11 @@
+[ Scene Diff utility ]
+
+Usage:
+	Utility window can be opened from "Window->Scene Diff" menu.
+	For support, usage examples, and video tutorial see: 
+		http://www.hf-games.com/scene-diff/
+
+Contact us by:
+	hfgamesfinland@gmail.com
+	http://www.hf-games.com/
+

@@ -35,7 +35,7 @@ public class CharacterDamage : MonoBehaviour {
 			return;
 		}
 
-		if(!AIComponent.damaged 
+		if(AIComponent != null && !AIComponent.damaged 
 		&& (hitPoints / initialHitPoints) < 0.65f//has NPC been damaged significantly?
 		&& attacker
 		){
@@ -65,9 +65,10 @@ public class CharacterDamage : MonoBehaviour {
 		attackerPos2 = attackerPos;
 		
 		//to expand enemy search radius if attacked to defend against sniping
-		AIComponent.attackedTime = Time.time;
+		if(AIComponent != null) AIComponent.attackedTime = Time.time;
 		
 		if (hitPoints <= 0.0f){
+            if (gameObject.name == "VentCover") gameObject.AddComponent<Rigidbody>();
 			SendMessage("Die");//use SendMessage() to allow other script components on this object to detect NPC death
 		}
 	}
@@ -80,7 +81,7 @@ public class CharacterDamage : MonoBehaviour {
 			PlayAudioAtPos.instance.PlayClipAt(dieSound, transform.position, 1.0f, 1.0f, 1.0f);
 		}
 
-		AIComponent.NPCRegistryComponent.UnregisterNPC(AIComponent);//unregister NPC from main NPC registry
+		if(AIComponent != null) AIComponent.NPCRegistryComponent.UnregisterNPC(AIComponent);//unregister NPC from main NPC registry
 		if(AIComponent.spawned && AIComponent.NPCSpawnerComponent){
 			AIComponent.NPCSpawnerComponent.UnregisterSpawnedNPC(AIComponent);//unregister NPC from spawner registry
 		}

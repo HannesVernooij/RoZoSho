@@ -5,9 +5,11 @@ using System.Collections.Generic;
 [RequireComponent(typeof(AudioSource))]
 public class AudioPlayer : MonoBehaviour {
     private AudioSource _audioSource;
-    [SerializeField]
     private List<AudioClip> _clips;
     private int _lastPlayedID;
+    [Header("PC INTERACTION ENABLING")]
+    [SerializeField]
+    private GameObject _pcInteractionObj;
 
     private void Start()
     {
@@ -32,6 +34,11 @@ public class AudioPlayer : MonoBehaviour {
             _audioSource.Play();
             Debug.Log("PLAYING");
             _lastPlayedID = id;
+
+            if(id == 1)
+            {
+                _pcInteractionObj.SetActive(true);
+            }
         }
     }
 }

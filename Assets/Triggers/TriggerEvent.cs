@@ -10,10 +10,12 @@ public class TriggerEvent : MonoBehaviour
     void OnTriggerEnter()
     {
         _triggerEnterEvent.Invoke();
+        Debug.Log("ENTER");
     }
 
     void OnTriggerExit()
     {
         _triggerExitEvent.Invoke();
+        Debug.Log("EXIT");
     }
 }

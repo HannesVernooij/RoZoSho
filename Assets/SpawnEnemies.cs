@@ -21,7 +21,7 @@ public class SpawnEnemies : MonoBehaviour
             else
             {
                 SpawnEnemy();
-                _spawnDelay = 10;
+                _spawnDelay = 1;
                 _enemiesSpawned++;
             }
 

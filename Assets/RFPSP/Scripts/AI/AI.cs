@@ -377,7 +377,7 @@ public class AI : MonoBehaviour {
 				}
 			}else{
 				StartCoroutine(StandWatch());
-				yield return false;
+                yield break;// return false;
 			}
 			yield return new WaitForSeconds(1.0f);
 		}
@@ -523,7 +523,7 @@ public class AI : MonoBehaviour {
 				if(target == null){
 					timeout = 0.0f;
 					heardPlayer = false;
-					yield return false;
+                    yield break;// return false;
 				}
 			}else{//hunt player across map
 				speedAmt = runSpeed;
@@ -536,7 +536,7 @@ public class AI : MonoBehaviour {
 			if(distance > attackRangeAmt && !huntPlayer){
 				speedAmt = walkSpeed;
 				target = null;
-				yield return false;
+                yield break;//return false;
 			}
 
 			if(pursueTarget){//should NPC attack player collider or leaning collider?
@@ -603,7 +603,7 @@ public class AI : MonoBehaviour {
 							agent.Stop();
 							target = null;
 							targetCol = null;
-							yield return false;
+                            yield break;// return false;
 						}
 					}
 				}

@@ -16,7 +16,7 @@ public class WeaponBar : MonoBehaviour
     private AmmoText _AmmoText;
     private PlayerWeapons _PlayerWeapons;
 
-    private int m_iOldCurrentWeapon = -1, m_IOldAmmoInClip, m_IOldAmmoTotal;
+    private int m_iOldCurrentWeapon = -1, m_IOldAmmoInClip = -1, m_IOldAmmoTotal = -1;
     IEnumerator Start()
     {
         yield return new WaitForEndOfFrame();
